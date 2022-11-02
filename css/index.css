@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #403d39;
+    --button-color: white;
+    --text-color : white;
+}
+
+article.container>p {
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px;
+}
+
+div.code-display {
+    background-color: var(--primary-color);
+    position: absolute;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    top: 27%;
+    left: 42%;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+}
+
+p#color-code {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    flex-basis: 80%;
+}
+
+button.copy-code {
+    flex-basis: 20%;
+    align-self: flex-end;
+}
+
+button.generator {
+    background-color: var(--button-color);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: var(--text-color);
+    position: absolute;
+    font-size: 1.5rem;
+    top: 45%;
+    left: 42%;
+    padding: 20px;
+}
