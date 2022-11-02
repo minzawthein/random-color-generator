@@ -28,7 +28,6 @@
 
     function setColorCode(savedHexaCode) {
         document.body.style.backgroundColor = savedHexaCode;
-        generatorButton.style.backgroundColor = savedHexaCode;
         hexaCode.innerText = savedHexaCode;
     }   
 }());

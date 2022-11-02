@@ -1,19 +1,13 @@
-:root {
-    --primary-color: #403d39;
-    --button-color: rgb(100, 92, 92);
-    --text-color : white;
-}
-
 .logo {
-    width: 100px;
-    height: 86px;
+    width: 78px;
+    height: 66px;
 }
 
 article.container>p {
     position: absolute;
-    top: 15%;
-    left: 40%;
-    font-size: 1.5rem;
+    top: 10%;
+    left: 19%;
+    font-size: 1rem;
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 10px;
@@ -23,11 +17,11 @@ div.code-display {
     background-color: var(--primary-color);
     position: absolute;
     color: var(--text-color);
-    font-size: 1.5rem;
-    top: 27%;
-    left: 42%;
+    font-size: 1rem;
+    top: 18%;
+    left: 18%;
     padding: 10px;
-    width: 300px;
+    width: 250px;
     display: flex;
 }
 
@@ -48,8 +42,8 @@ button.generator {
     border-radius: 20px;
     color: var(--text-color);
     position: absolute;
-    font-size: 1.5rem;
-    top: 45%;
-    left: 42%;
+    font-size: 1rem;
+    top: 30%;
+    left: 21%;
     padding: 20px;
 }

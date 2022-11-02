@@ -1,18 +1,7 @@
-:root {
-    --primary-color: #403d39;
-    --button-color: rgb(100, 92, 92);
-    --text-color : white;
-}
-
-.logo {
-    width: 100px;
-    height: 86px;
-}
-
 article.container>p {
     position: absolute;
     top: 15%;
-    left: 40%;
+    left: 29%;
     font-size: 1.5rem;
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -24,8 +13,8 @@ div.code-display {
     position: absolute;
     color: var(--text-color);
     font-size: 1.5rem;
-    top: 27%;
-    left: 42%;
+    top: 23%;
+    left: 33%;
     padding: 10px;
     width: 300px;
     display: flex;
@@ -49,7 +38,7 @@ button.generator {
     color: var(--text-color);
     position: absolute;
     font-size: 1.5rem;
-    top: 45%;
-    left: 42%;
+    top: 35%;
+    left: 33%;
     padding: 20px;
 }
