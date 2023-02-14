@@ -1,14 +1,14 @@
 (function ()  { 
-    var generatorButton = document.getElementsByClassName('generator')[0],
+    let generatorButton = document.getElementsByClassName('generator')[0],
         copyButton = document.getElementsByClassName('copy-code')[0],
         hexaCode = document.getElementById('color-code'),
         lengthsOfColorCode = 6;
     
-    generatorButton.addEventListener('click', function() {
-        var generatedCode = "#";
-        for(var i=0; i < lengthsOfColorCode; i++) {
-            var codes = ["0", "1", "2", "3","4", "5","6","7","8","9",'a','b','c','d','e','f'];
-            var arrayCode = Math.floor(Math.random() * codes.length);
+    generatorButton.addEventListener('click', () => {
+        let generatedCode = "#";
+        for(let i=0; i < lengthsOfColorCode; i++) {
+            let codes = ["0", "1", "2", "3","4", "5","6","7","8","9",'a','b','c','d','e','f'];
+            let arrayCode = Math.floor(Math.random() * codes.length);
             generatedCode += codes[arrayCode];
         }       
 
@@ -16,11 +16,11 @@
         localStorage.setItem('colorCode',generatedCode)
     },false );
 
-    copyButton.addEventListener('click', function(){
+    copyButton.addEventListener('click', () => {
         navigator.clipboard.writeText(hexaCode.innerText);
     },false);
 
-    window.addEventListener("load" , function() {
+    window.addEventListener("load" , () => {
         if(this.localStorage.colorCode){
         setColorCode(this.localStorage.getItem('colorCode'));
         }
